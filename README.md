@@ -13,3 +13,4 @@ vec2 = c(rownames(mtcars[10:32,]))
 4. Test the equality of two character vectors
 vec1 = c(rownames(mtcars[1:15,]))
 vec2 = c(rownames(mtcars[11:25,]))
+Answer: Saved as R Script.
