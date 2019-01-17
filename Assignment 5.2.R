@@ -1,0 +1,8 @@
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[10:32,]))
+union(vec1,vec2)
+intersect(vec1,vec2)
+setdiff(vec1,vec2)
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+identical(vec1,vec2)
